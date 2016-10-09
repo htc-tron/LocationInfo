@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>gm_app</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Base css, but you'll likely want to keep them -->
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+
+    <!-- Your custom files -->
+    <link rel="stylesheet" href="css/app.css" type="text/css">
+
+    <script src="GMLIB/info.js"></script>
+    <script src="GMLIB/system.js"></script>
+    <!-- Uncomment libraries as you need them: -->
+    <!-- <script src="GMLIB/comm.js"></script> -->
+    <!-- <script src="GMLIB/io.js"></script> -->
+    <!-- <script src="GMLIB/media.js"></script> -->
+    <!-- <script src="GMLIB/monitor.js"></script> -->
+    <!-- <script src="GMLIB/nav.js"></script> -->
+    <!-- <script src="GMLIB/phone.js"></script> -->
+    <!-- <script src="GMLIB/ui.js"></script> -->
+    <!-- <script src="GMLIB/util.js"></script> -->
+    <!-- <script src="GMLIB/voice.js"></script> -->
+
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="close"><img src="images/close.png" onclick="gm.system.closeApp()" alt="close"></div>
+      <div id="main">
+
+        <!-- Remove all code inside #main and add your own! -->
+        <!-- <h1>gm_app</h1>
+        <p>
+          Your VIN is: <span id="vin"></span>
+        </p> -->
+
+        <!--<<h1>Speed</h1> -->
+        <div class="instruments">
+        <!-- <div id="speed"></div> -->
+        <!-- <div id="units">---</div> -->
+        <div id="seatbelt"></div>
+        <h1>Latitude</h1>
+        <div id="gpslat"></div>
+        <h1>Longitude</h1>
+        <div id="gpslng"></div>
+        <h1>Location</h1>
+        <div id="location"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Your app code: -->
+
+    <p class="result"></p>
+
+    <p class="result2"></p>
+
+    <p class="result3"></p>
+
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>  
+    <script src="js/script3.js"></script>
+   <!-- <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/app3.js"></script> -->
+  </body>
+</html>

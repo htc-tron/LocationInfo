@@ -1,0 +1,73 @@
+/* Your CSS goes here */
+
+body {
+  background-color:	#A9A9A9;
+  
+}
+
+h1 {
+  font-family:  "Pacifico";
+  color: blue;
+}
+
+#main {
+  text-align: center;
+}
+
+@font-face
+{
+	font-family: "Pacifico";
+	src: url("Pacifico.ttf");
+}
+
+
+#close {
+  position: absolute;
+  top: 90px;
+  right: 0;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  z-index: 1000;
+}
+#close img {
+  width: 100%;
+}
+
+#speed {
+  font-size: 1em;
+  line-height: .4em;
+}
+
+#seatbelt {
+  font-size: 1em;
+  line-height: .4em;
+}
+
+#gpslat {
+  font-size: 1em;
+  line-height: .2em;
+}
+
+#gpslng {
+  font-size: 1em;
+  line-height: .2em;
+}
+
+#location {
+  font-size: 1em;
+  line-height: .2em;
+}
+
+
+.result {
+  text-align: center; 
+}
+
+.result2 {
+  text-align: center;
+}
+
+.result3 {
+  text-align: center;
+}
